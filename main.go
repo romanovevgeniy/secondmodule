@@ -1,4 +1,4 @@
-package secondmodule
+package main
 
 import (
 	"fmt"
@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Second")
+	num := firstmodule.SquareOfNum(5)
+	fmt.Println(num)
 }
